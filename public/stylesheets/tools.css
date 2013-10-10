@@ -1,0 +1,124 @@
+/* Quick Margins */
+	.mt0 { margin: 0px;}
+	.mas { margin: 5px; }
+	.mts { margin-top: 5px; }
+	.mrs { margin-right: 5px; }
+	.mbs { margin-bottom: 5px; }
+	.mls { margin-left: 5px; }
+	
+	.mam { margin: 10px; }
+	.mtm { margin-top: 10px; }
+	.mrm { margin-right: 10px; }
+	.mbm { margin-bottom: 10px; }
+	.mlm { margin-left: 10px; }
+
+/* Quick Padding */
+	.pa0 { padding: 0px }
+
+/* Quick Clear */
+	.clear10 {min-height: 10px;}
+	.clear20 {min-height: 20px;}
+	.clear40 {min-height: 40px;}
+	.clear80 {min-height: 80px;}
+/* Width */
+  .fullwidth{
+    height: auto;
+    width: 100%;
+  }
+    /*.fullwidth{
+      max-width: 100%;
+      height: auto;
+      width: auto;
+    }*/
+	.width95{
+	  width:95%;
+	  margin:0 auto;
+	}
+	.width90{
+	  width:90%;
+	  margin:0 auto;
+	}
+		  .width80{
+		    width: 80%;
+		  }
+		  .width70{
+		  	width: 70%
+		  }
+		  .width50{
+		    width: 50%;
+		  }
+		  .width25{
+		  	width: 25%;
+		  }
+
+/* SPECIAL */
+	/* Split 50 */
+	.split50{ width: 100%}
+  	.s50l{ width: 48.5%; margin-right: 1%; display: inline}
+  	.s50r{ width: 48.5%; float: right;}
+
+  	/* fancyblue */
+  	.fblue{
+	  	color: #fff;
+		text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+		background-color: #006dcc;
+		background-image: -moz-linear-gradient(top,#08c,#04c);
+		background-image: -webkit-gradient(linear,0 0,0 100%,from(#08c),to(#04c));
+		background-image: -webkit-linear-gradient(top,#08c,#04c);
+		background-image: -o-linear-gradient(top,#08c,#04c);
+		background-image: linear-gradient(to bottom,#08c,#04c);
+		background-repeat: repeat-x;
+		border-color: #04c #04c #002a80;
+		border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc',endColorstr='#ff0044cc',GradientType=0);
+		filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	}
+
+/* Checks */
+	.backred{
+		background-color: red;
+	}
+	.backgrn{
+		background-color: green;
+	}
+/* Text */
+	.size{}
+		.text08{
+			font-size:.8em; 
+		}
+		.text125{
+			font-size: 1.25em;
+		}
+	.colors{}
+		.blue-text{
+			color: #428bca;	
+		}
+		.red-text{
+			color: #d14836;
+		}
+		.grey{
+			color: grey;
+		}
+		.white{
+
+		}
+/* Quick Floats */
+	.floatl{
+		float: left;
+	}
+	.floatr{
+		float: right;
+	}
+	.iblock{
+		display: inline-block;
+		vertical-align: top;
+	}
+	.center200{
+		width: 200px;
+		margin: 0 auto;
+	}
+	.inline{ display: inline;}
+/* Background */
+	.white-back{
+		background-color: white;
+	}
